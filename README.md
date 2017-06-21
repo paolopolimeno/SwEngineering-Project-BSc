@@ -15,7 +15,7 @@ The game is really complex and with many rules. If you want more informations ab
 
 Below you find some screenshots. The GUI has been built using Java.
 
-<img src="img/login.png" width="20%">
+<img src="img/login.png" width="30%">
 <img src="img/home.JPG" width="70%">
 
 
