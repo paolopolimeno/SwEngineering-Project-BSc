@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<!-- CITY LINKS -->
+	<road city1="Ahron" city2="Castrum" />
+	<road city1="Ahron" city2="Burgen" />
+	<road city1="Dorful" city2="Burgen" />
+	<road city1="Castrum" city2="Framek" />
+	<road city1="Dorful" city2="Graden" />
+	<road city1="Esti" city2="Burgen" />
+	<road city1="Esti" city2="Hellar" />
+	<road city1="Framek" city2="Indur" />
+	<road city1="Graden" city2="Juvelar" />
+	<road city1="Hellar" city2="Juvelar" />
+	<road city1="Hellar" city2="Merkatim" />
+	<road city1="Juvelar" city2="Lyram" />
+	<road city1="Juvelar" city2="Indur" />
+	<road city1="Indur" city2="Kultos" />
+	<road city1="Kultos" city2="Lyram" />
+	<road city1="Lyram" city2="Naris" />
+	<road city1="Merkatim" city2="Ostum" />
+</settings>

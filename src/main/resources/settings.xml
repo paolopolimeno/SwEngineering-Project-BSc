@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	
+		<gameboard>
+			<!-- CITIES -->
+
+			<city name="Ahron" color="Gold" number="1" />
+			<city name="Burgen" color="Bronze" number="7" />
+			<city name="Castrum" color="Silver" number="2" />
+			<city name="Dorful" color="Iron" number="8" />
+			<city name="Esti" color="Silver" number="13" />
+			<city name="Framek" color="Gold" number="3" />
+			<city name="Graden" color="Silver" number="9" />
+			<city name="Hellar" color="Gold" number="15" />
+			<city name="Indur" color="Bronze" number="4" />
+			<city name="Juvelar" color="Purple" number="10" />
+			<city name="Kultos" color="Gold" number="5" />
+			<city name="Lyram" color="Silver" number="11" />
+			<city name="Merkatim" color="Iron" number="17" />
+			<city name="Naris" color="Bronze" number="6" />
+			<city name="Ostum" color="Gold" number="12" />
+
+
+
+			<!-- REGIONS -->
+			<region name="Sea" first_letter="a" last_letter="e" />
+			<region name="Hill" first_letter="f" last_letter="j" />
+			<region name="Mountain" first_letter="k" last_letter="o" />
+
+
+			<!-- NOBILITY TRACK -->
+			<nobility_slot>
+				<coordinate>0</coordinate>
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>1</coordinate>
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>2</coordinate>
+				<points_bonus amount="2" />
+				<prosperity_bonus amount="2" />
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>3</coordinate>
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>4</coordinate>
+				<city_token_bonus amount="1" />
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>5</coordinate>
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>6</coordinate>
+				<main_action_bonus amount="1" />
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>7</coordinate>
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>8</coordinate>
+				<points_bonus amount="3" />
+				<politic_card_bonus amount="1" />
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>9</coordinate>
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>10</coordinate>
+				<free_permission_card_bonus amount="1" />
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>11</coordinate>
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>12</coordinate>
+				<points_bonus amount="5" />
+				<assistant_bonus amount="1" />
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>13</coordinate>
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>14</coordinate>
+				<repeat_permission_card_bonus amount="1" />
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>15</coordinate>
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>16</coordinate>
+				<city_token_bonus amount="2" />
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>17</coordinate>
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>18</coordinate>
+				<points_bonus amount="8" />
+			</nobility_slot>
+			
+			<nobility_slot>
+				<coordinate>19</coordinate>
+				<points_bonus amount="2" />
+			</nobility_slot>
+			<nobility_slot>
+				<coordinate>20</coordinate>
+				<points_bonus amount="3" />
+			</nobility_slot>
+		</gameboard>
+
+	<!-- CITY BONUSES -->
+	<token>
+		<assistant_bonus amount="2" />
+	</token>
+	<token>
+		<politic_card_bonus amount="1" />
+		<points_bonus amount="1" />
+	</token>
+	<token>
+		<prosperity_bonus amount="2" />
+	</token>
+	<token>
+		<politic_card_bonus amount="1" />
+	</token>
+	<token>
+		<nobility_bonus amount="1" />
+	</token>
+	<token>
+		<assistant_bonus amount="1" />
+		<prosperity_bonus amount="1" />
+	</token>
+	<token>
+		<assistant_bonus amount="1" />
+	</token>
+	<token>
+		<nobility_bonus amount="1" />
+	</token>
+	<token>
+		<points_bonus amount="3" />
+	</token>
+	<token>
+		<points_bonus amount="1" />
+	</token>
+	<token>
+		<assistant_bonus amount="1" />
+		<politic_card_bonus amount="1" />
+	</token>
+	<token>
+		<points_bonus amount="2" />
+	</token>
+	<token>
+		<prosperity_bonus amount="1" />
+	</token>
+	<token>
+		<prosperity_bonus amount="3" />
+	</token>
+
+
+	<!-- POLITIC CARDS AND COUNCILORS BY COLOR -->
+	<card_color color="BLACK" councilorsNumber="4"
+		politicCardsNumber="13" />
+	<card_color color="WHITE" councilorsNumber="4"
+		politicCardsNumber="13" />
+	<card_color color="PURPLE" councilorsNumber="4"
+		politicCardsNumber="13" />
+	<card_color color="PINK" councilorsNumber="4"
+		politicCardsNumber="13" />
+	<card_color color="BLUE" councilorsNumber="4"
+		politicCardsNumber="13" />
+	<card_color color="ORANGE" councilorsNumber="4"
+		politicCardsNumber="13" />
+	<card_color color="JOLLY" councilorsNumber="0"
+		politicCardsNumber="12" />
+
+
+
+	<!-- PERMISSION CARDS -->
+	<permission_card>
+		<letters>b</letters>
+		<letters>c</letters>
+		<letters>d</letters>
+		<assistant_bonus amount="1" />
+		<points_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>a</letters>
+		<letters>b</letters>
+		<letters>e</letters>
+		<prosperity_bonus amount="3" />
+	</permission_card>
+
+	<permission_card>
+		<letters>a</letters>
+		<letters>d</letters>
+		<letters>e</letters>
+		<prosperity_bonus amount="1" />
+		<points_bonus amount="2" />
+	</permission_card>
+
+	<permission_card>
+		<letters>a</letters>
+		<letters>b</letters>
+		<letters>c</letters>
+		<assistant_bonus amount="2" />
+	</permission_card>
+
+	<permission_card>
+		<letters>c</letters>
+		<letters>d</letters>
+		<letters>e</letters>
+		<politic_card_bonus amount="1" />
+		<nobility_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>b</letters>
+		<letters>c</letters>
+		<prosperity_bonus amount="3" />
+		<points_bonus amount="3" />
+	</permission_card>
+
+	<permission_card>
+		<letters>d</letters>
+		<letters>e</letters>
+		<points_bonus amount="3" />
+		<assistant_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>a</letters>
+		<letters>e</letters>
+		<nobility_bonus amount="2" />
+	</permission_card>
+
+	<permission_card>
+		<letters>c</letters>
+		<letters>d</letters>
+		<points_bonus amount="3" />
+		<assistant_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>a</letters>
+		<letters>b</letters>
+		<prosperity_bonus amount="3" />
+		<politic_card_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>b</letters>
+		<politic_card_bonus amount="3" />
+		<assistant_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>e</letters>
+		<main_action_bonus amount="1" />
+		<prosperity_bonus amount="2" />
+	</permission_card>
+
+	<permission_card>
+		<letters>d</letters>
+		<points_bonus amount="7" />
+	</permission_card>
+
+	<permission_card>
+		<letters>a</letters>
+		<points_bonus amount="4" />
+		<prosperity_bonus amount="3" />
+	</permission_card>
+
+	<permission_card>
+		<letters>c</letters>
+		<assistant_bonus amount="2" />
+		<prosperity_bonus amount="3" />
+	</permission_card>
+
+
+
+	<permission_card>
+		<letters>f</letters>
+		<letters>i</letters>
+		<letters>j</letters>
+		<assistant_bonus amount="1" />
+		<nobility_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>i</letters>
+		<letters>j</letters>
+		<letters>h</letters>
+		<politic_card_bonus amount="2" />
+	</permission_card>
+
+	<permission_card>
+		<letters>g</letters>
+		<letters>h</letters>
+		<letters>i</letters>
+		<politic_card_bonus amount="1" />
+		<assistant_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>f</letters>
+		<letters>g</letters>
+		<letters>j</letters>
+		<prosperity_bonus amount="2" />
+		<points_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>f</letters>
+		<letters>g</letters>
+		<letters>h</letters>
+		<nobility_bonus amount="1" />
+		<prosperity_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>h</letters>
+		<letters>i</letters>
+		<points_bonus amount="5" />
+	</permission_card>
+
+	<permission_card>
+		<letters>f</letters>
+		<letters>j</letters>
+		<assistant_bonus amount="2" />
+		<prosperity_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>h</letters>
+		<letters>g</letters>
+		<assistant_bonus amount="3" />
+	</permission_card>
+
+	<permission_card>
+		<letters>f</letters>
+		<letters>g</letters>
+		<prosperity_bonus amount="5" />
+	</permission_card>
+
+	<permission_card>
+		<letters>i</letters>
+		<letters>j</letters>
+		<politic_card_bonus amount="2" />
+		<nobility_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>h</letters>
+		<assistant_bonus amount="4" />
+	</permission_card>
+
+	<permission_card>
+		<letters>f</letters>
+		<politic_card_bonus amount="2" />
+		<prosperity_bonus amount="4" />
+	</permission_card>
+
+	<permission_card>
+		<letters>i</letters>
+		<politic_card_bonus amount="2" />
+		<assistant_bonus amount="2" />
+	</permission_card>
+
+	<permission_card>
+		<letters>j</letters>
+		<main_action_bonus amount="1" />
+		<points_bonus amount="2" />
+	</permission_card>
+
+	<permission_card>
+		<letters>g</letters>
+		<assistant_bonus amount="2" />
+		<points_bonus amount="2" />
+	</permission_card>
+
+
+
+	<permission_card>
+		<letters>k</letters>
+		<letters>l</letters>
+		<letters>m</letters>
+		<assistant_bonus amount="1" />
+		<prosperity_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>k</letters>
+		<letters>n</letters>
+		<letters>o</letters>
+		<politic_card_bonus amount="1" />
+		<points_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>m</letters>
+		<letters>n</letters>
+		<letters>o</letters>
+		<nobility_bonus amount="1" />
+		<points_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>l</letters>
+		<letters>m</letters>
+		<letters>n</letters>
+		<points_bonus amount="3" />
+	</permission_card>
+
+	<permission_card>
+		<letters>k</letters>
+		<letters>l</letters>
+		<letters>o</letters>
+		<politic_card_bonus amount="1" />
+		<prosperity_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>m</letters>
+		<letters>l</letters>
+		<politic_card_bonus amount="3" />
+	</permission_card>
+
+	<permission_card>
+		<letters>m</letters>
+		<letters>n</letters>
+		<main_action_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>k</letters>
+		<letters>l</letters>
+		<politic_card_bonus amount="1" />
+		<assistant_bonus amount="2" />
+	</permission_card>
+
+	<permission_card>
+		<letters>o</letters>
+		<letters>k</letters>
+		<politic_card_bonus amount="2" />
+		<nobility_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>n</letters>
+		<letters>o</letters>
+		<points_bonus amount="2" />
+		<politic_card_bonus amount="2" />
+	</permission_card>
+
+	<permission_card>
+		<letters>l</letters>
+		<assistant_bonus amount="3" />
+		<prosperity_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>n</letters>
+		<prosperity_bonus amount="7" />
+	</permission_card>
+
+	<permission_card>
+		<letters>o</letters>
+		<politic_card_bonus amount="3" />
+		<nobility_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>m</letters>
+		<points_bonus amount="5" />
+		<nobility_bonus amount="1" />
+	</permission_card>
+
+	<permission_card>
+		<letters>k</letters>
+		<politic_card_bonus amount="4" />
+	</permission_card>
+
+	<!-- CITY WITH THE KING -->
+	<city_with_king>Juvelar</city_with_king>
+
+	<!-- NUMBER OF COUNCILORS PER BALCONY -->
+	<councilors_per_balcony>4</councilors_per_balcony>
+
+	<!-- PROSPERITY TRACK LENGHT -->
+	<prosperity_track_length>21</prosperity_track_length>
+
+
+	<!-- POINTS TRACK LENGHT -->
+	<points_track_length>100</points_track_length>
+	
+	<!-- VALUE OF BONUS WHEN CITIES ARE BUILT -->
+		<!-- ALL IRON CITIES BUILT -->
+		<iron_bonus_amount>5</iron_bonus_amount>
+		<!-- ALL BRONZE CITIES BUILT -->
+		<bronze_bonus_amount>8</bronze_bonus_amount>
+		<!-- ALL SILVER CITIES BUILT -->
+		<silver_bonus_amount>12</silver_bonus_amount>
+		<!-- ALL GOLD CITIES BUILT -->
+		<gold_bonus_amount>20</gold_bonus_amount>
+		<!-- ALL CITIES OF A REGION BUILT -->
+		<region_bonus_amount>5</region_bonus_amount>
+		<!-- KING BONUS CARDS VALUES -->
+		<!-- FIRST KING BONUS CARD -->
+		<first_king_bonus_amount>25</first_king_bonus_amount>
+		<!-- SECOND KING BONUS CARD -->
+		<second_king_bonus_amount>18</second_king_bonus_amount>
+		<!-- THIRD KING BONUS CARD -->
+		<third_king_bonus_amount>12</third_king_bonus_amount>
+		<!-- FOURTH KING BONUS CARD -->
+		<fourth_king_bonus_amount>7</fourth_king_bonus_amount>
+		<!-- FIFTH KING BONUS CARD -->
+		<fifth_king_bonus_amount>3</fifth_king_bonus_amount>
+</settings>
